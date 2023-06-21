@@ -25,7 +25,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-bottom: 50px;
   }
 }
@@ -127,6 +127,13 @@ footer {
 h2 {
   font-size: 2.5em;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
 }
 
 #banner {
@@ -260,6 +267,36 @@ p {
 .text-highlight {
   color:  rgb(222,35,51);
   text-decoration: none;
+}
+
+/* Films page */
+
+.video-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  grid-auto-rows: minmax(27rem, auto);
+}
+
+@media (max-width: 1023px) {
+  .video-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.video {
+  margin: 0;
+  height: 20rem;
+}
+
+iframe {
+  display: block; /* Avoid space between figura & figcaption */
+}
+
+figcaption {
+  background-color: rgb(244, 246, 247);
+  font-size: 0.8em;
+  padding: 24px 16px;
 }
 
 /* Footer */
