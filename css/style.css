@@ -115,6 +115,24 @@ footer {
 main {
   padding-top: 10rem;
 }
+
+h1.logo {
+  margin: 1rem 3rem;
+  font-size: 5em;
+  margin-bottom: 0;
+}
+
+a.logo-anchor {
+  text-decoration: none;
+  color: black;
+}
+
+span.logo-AI {
+  font-weight: normal;
+  margin-left: 0.6rem;
+  letter-spacing: -8px;
+}
+
 /* Navigaction Bar */
 
 .menu {
