@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* apply your custom font to anything you like */
 html {
   font-family: 'Source Sans 3', sans-serif;
 }
@@ -10,13 +9,11 @@ html[lang="es"] q {
 }
 
 * {
-  /* To use the alternative box model for all of your elements */
   box-sizing: border-box;
 }
 
 body {
   min-height: 100vh;
-  /* max-width: 95vw; */
   display: grid;
   grid-gap: 1em;
   margin: 0; /* This solves footer margin issue */
@@ -53,7 +50,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
-    /* margin-top: 50px; */
     margin-bottom: 50px;
   }
 }
@@ -136,7 +132,6 @@ span.logo-AI {
 /* Navigaction Bar */
 
 .menu {
-  /* max-height: 445px; */
   min-height: 192px;
   position: fixed;
   background-color: white;
@@ -146,9 +141,6 @@ span.logo-AI {
 }
 
 @media (max-width: 1239px) {
-  /* .menu {
-    justify-self: center;
-  } */
   .logo {
     display: flex;
     justify-content: center;
@@ -580,11 +572,6 @@ footer {
   color: white;
   text-decoration: none;
 }
-
-/* .footer-list > li > a:hover, .anchor, .breadcrumb li a.on {
-  color: rgb(222,35,51);
-  text-decoration: none;
-} */
 
 .social-media {
   display: flex;
